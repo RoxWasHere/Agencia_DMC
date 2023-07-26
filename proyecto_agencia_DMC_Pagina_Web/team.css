@@ -1,0 +1,191 @@
+
+.background_page {
+  background-color: #282828;
+}
+
+
+.main_header{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background: #360F0F;
+  border: 1px solid #CF1313;
+}
+
+.main_emblem {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f00;
+    box-sizing: border-box;
+    position: absolute;
+    width: 213.29px;
+    height: 56px;
+    left: 532.85px;
+    top: 40px;
+
+background: #770505;
+border: 1px solid #000000;
+border-radius: 50px;
+  }
+
+  .main_emblem:hover {
+    background-color: #c00;
+  }
+
+  .font_emblem {
+    font-family: 'Italianno';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FF0000;
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+.separator {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+width: 100%;
+height: 10px;
+background: red;
+border: 1px solid black;
+}
+
+/* Dante biografía */
+
+.background_dante {
+  margin-top: 5px;
+width: 100%;
+height: 400px;
+filter: brightness(50%);
+
+}
+
+.dante {
+width: 20%;
+height: auto;
+bottom: 450px;
+position: relative;
+}
+
+.Dante {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/* Nero biografía */
+
+.background_nero {
+width: 100%;
+height: 450px;
+}
+
+.nero {
+width: 14%;
+height: auto;
+position: relative;
+bottom: 430px;
+}
+        
+.Nero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/* V biografía */
+
+.background_v {
+width: 100%;
+height: 430px;
+position: relative;
+
+}
+
+.v {
+width: 10%;
+height: auto;
+position: relative;
+bottom: 400px;
+}
+
+.V {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/*Lady biografia */
+
+.background_lady {
+width:100%;
+height:400px;
+position: relative
+
+}
+
+.lady {
+width: 10%;
+height: auto;
+bottom: 380px;
+position: relative;
+}
+
+.Lady {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/* Trish biografia */
+
+.background_trish {
+width:100%;
+height:380px;
+position: relative
+}
+
+.trish {
+width: 10%;
+height: auto;
+bottom: 370px;
+position: relative;
+}
+
+.Trish {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+/* Nico biografia */
+
+.background_nico {
+width:100%;
+height:380px;
+position: relative
+}
+
+.nico {
+width: 9%;
+height: auto;
+bottom: 370px;
+position: relative;
+}
+
+.Nico {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}

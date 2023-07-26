@@ -1,0 +1,202 @@
+/* MAIN_HEADER */
+
+.background {
+background-color:#282828;
+}
+
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.main_header{
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background: #360F0F;
+  border: 1px solid #CF1313;
+  flex-wrap: nowrap;
+}
+
+.main_emblem {
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #f00;
+  box-sizing: border-box;
+  flex-direction: column;
+justify-content: center;
+  white-space: nowrap;
+
+background: #770505;
+border: 1px solid #000000;
+border-radius: 50px;
+  }
+
+  .main_emblem:hover {
+    background-color: #c00;
+  }
+
+  /* Devil May Cry */
+.font_emblem {
+font-family: 'Italianno';
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: #FF0000;
+margin-left: 5%;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+flex-wrap: nowrap;
+}
+
+.separator {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+width: 100%;
+height: 10px;
+background: red;
+border: 1px solid black;
+}
+
+.secondary_background_who_we_are {
+  width: 100%;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.title {
+  position: absolute;
+  width: 209px;
+  height: 0px;
+  left: 500px;
+  top: 166px;
+  
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  
+  color: #FF0707;
+
+}
+
+.text {
+position: absolute;
+width: 1241px;
+height: 176px;
+top: 219px;
+margin-top: 25px;
+
+font-family: Tahoma;
+font-style: normal;
+font-weight: 400px;
+font-size: 30px;
+line-height: 49px;
+text-align: center;
+  
+color: #FFFFFF;
+}
+
+.separator_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 10px;
+  background: red;
+  border: 1px solid black;
+}
+
+.secondary_background_of_services {
+  width: 100%;
+  height: 320px;
+  filter: brightness(70%);
+}
+
+.title_2 {
+  position: absolute;
+  width: 116px;
+  height: 50px;
+  left: 550px;
+  top: 500px;
+  
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.text_2 {
+  position: absolute;
+  width: 1241px;
+  height: 244px;
+  left: 34px;
+  top: 561px;
+  
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 59px;
+  
+  color: #fff;
+}
+
+.phone_number {
+position: absolute;
+width: 224px;
+height: 43px;
+left: 500px;
+top: 730px;
+  
+font-family: Tahoma;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+
+white-space: nowrap;
+  
+ color: #FE0202;
+  
+}
+
+.terms {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: nowrap;
+
+color: #fff;
+}
+
